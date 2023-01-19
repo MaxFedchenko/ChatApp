@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box !important;
+  font-family: Rubik;
+  font-size: 1.2rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+}
+#app-block {
+  width: 800px;
+  margin: 5px;
+  box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.726);
+  background-color: white;
+}
+#join-content,
+#chat-block {
+  margin: 50px;
+}
+#join-title {
+  font-size: 3rem;
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 20px 50px 20px 50px;
+}
+.text-box {
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
+  padding: 15px;
+  border-width: 0px;
+  background-color: rgb(228, 228, 228);
+}
+.text-box:focus {
+  outline: none;
+}
+.btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+#chat-box {
+  border: 2px dotted gray;
+  height: 500px;
+  overflow-y: auto;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.msg-block {
+  padding: 2px;
+  display: flex;
+  align-items: stretch;
+  word-break: break-all;
+}
+.msg-block .inf {
+  display: inline-block;
+  border-right: 1px solid darkgray;
+  width: 20%;
+  min-width: 20%;
+  text-align: right;
+  padding: 10px;
+}
+.msg-block .msg {
+  display: block;
+  padding: 10px;
+}
+.notif-block {
+  padding: 3px;
+  text-align: center;
+  color: darkgray;
+}

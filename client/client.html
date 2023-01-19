@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="/client.css" />
+  </head>
+  <body>
+    <div id="app-block">
+      <div id="join-block">
+        <div id="join-title">Join Chat Room</div>
+        <div id="join-content">
+          <input
+            id="name-box"
+            class="text-box"
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            id="room-box"
+            class="text-box"
+            type="text"
+            placeholder="Room id"
+          />
+          <button id="enter-btn" class="btn">Enter</button>
+        </div>
+      </div>
+
+      <div id="chat-block" style="display: none">
+        <div id="chat-box"></div>
+        <input
+          id="msg-box"
+          class="text-box"
+          type="text"
+          placeholder="Message"
+        />
+        <button id="send-btn" class="btn">Send</button>
+        <button id="leave-btn" class="btn">Leave</button>
+      </div>
+    </div>
+  </body>
+  <script src="/client.js"></script>
+</html>
